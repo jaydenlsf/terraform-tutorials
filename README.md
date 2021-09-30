@@ -8,6 +8,8 @@ If error "bad permission" appears, allow read access to your keypair file:
 
 - chmod 400 \<PATH TO KEY PAIR\>
 
+<hr>
+
 #### Notes
 
 - VPC
