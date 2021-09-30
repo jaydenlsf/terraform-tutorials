@@ -12,6 +12,9 @@
 - create AWS Security Group Terraform module and define HTTP port 80, 22 inbound rule for internet access `0.0.0.0/0`
 - create multiple EC2 Instances in VPC Private Subnets
 - create an EC2 Instance in VPC Public Subnet (Bastion Host)
+  - Bastion Host
+    - a server used to provide access to a private network from an external network, such as the internet
+    - user need to log into the bastion host first, and then into the target private instance (2-step login)
 - create Elastic IP for Bastion Host EC2 Instance
 - create `null_resource` with the following 3 Terraform Provisioners:
   - File Provisioner
