@@ -50,5 +50,11 @@ If error "bad permission" appears, allow read access to your keypair file:
   - can be associated with any instance or network interface
 
 - Route Table
+
   - contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed
   - it tells network packets which way they need to go to get to their destination
+
+- null_resource
+  - provisioners withou a resource
+  - used when you need to run provisioners that aren't directly associated with a specific resource
+  - instances of `null_resource` are treated like normal resources, but they don't do anything
